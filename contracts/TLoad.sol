@@ -3,9 +3,9 @@ pragma solidity 0.8.25;
 
 contract NewStufff {
 
-    function tstoreCheck() public pure {
+    function tstoreCheck() public view {
         assembly {
-            tload(0)
+            pop(tload(0))
         }
     }
 }
