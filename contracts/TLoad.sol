@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: MIT
-pragma solidity 0.8.24;
+pragma solidity 0.8.25;
 
 contract NewStufff {
 
     function tstoreCheck() public pure {
         assembly {
-            tload(0,0)
+            tload(0)
         }
     }
 }
